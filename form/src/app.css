@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(36, 33, 57);
+    height: 200px;
+}
+
+
+.button {
+    border-radius: 3px;
+    border: 1px solid black;
+    width: 50px;
+    height: 21px;
+    outline: none;
+}
+
+.button:active {
+    box-shadow: 0px 0px 1px 1px black;
+}
+
+.errorText {
+    opacity: 0.3;
+    color: red;
+}
+input {
+    outline: none;
+}
+.error {
+    border-radius: 3px;
+    box-shadow: 0px 0px 1px 1px red;
+}
+.succesText {
+    color: greenyellow;
+}
