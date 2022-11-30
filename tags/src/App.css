@@ -1,0 +1,18 @@
+.input {
+    outline: none;
+}
+.error {
+    outline: none;
+
+    border-radius: 3px;
+    border-color: red;
+    box-shadow: 0px 0px 1px 0px red;
+}
+.errorD {
+color: red;
+font-size: 12px;
+}
+.sended {
+    color: green;
+font-size: 12px;
+}
